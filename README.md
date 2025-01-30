@@ -3,9 +3,9 @@ How to Start the Project -->
 This project contains both the **frontend (Vite + React)** and the **backend (Node.js + Express)**.
 
 ##  1. Start the Frontend (React)
-cd client
-npm install
-npm run dev
+1.cd client__
+2.npm install__
+3npm run dev__
 
 ##  2. Start the Backend (Node+Express)
 cd server
