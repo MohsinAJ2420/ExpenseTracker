@@ -30,5 +30,10 @@ For the logic of sorting, adding, and filtering expenses, there are **3 custom h
 - **`useSortExpenses`**: Handles the sorting logic for expenses.
 - **`useFilterExpenses`**: Implements the filtering logic.
 
+  ## ARIA Labels for WCAG Compliance
+
+Throughout the project, **ARIA labels** (for example, `aria-label` and `aria-labelledby`) are applied to various components to enhance **accessibility** and help meet **WCAG** standards. These labels assist users who rely on assistive technologies, such as screen readers, by providing clear and descriptive information about interface elements.
+
+
 ## Optimization with `useMemo`
-To optimize the app, **`useMemo`** is used to memorize the results and prevent unnecessary recalculations. This optimization is particularly helpful for the **chart** and **table** components.
+When the table is sorted or the app re-renders, all child components were being re-rendered. To optimize performance, **`useMemo`** is used to cache the computed results and avoid unnecessary recalculations, particularly benefiting the **chart** and **table** components.
