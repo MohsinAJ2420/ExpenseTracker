@@ -30,7 +30,7 @@ For the logic of sorting, adding, and filtering expenses, there are **3 custom h
 - **`useSortExpenses`**: Handles the sorting logic for expenses.
 - **`useFilterExpenses`**: Implements the filtering logic.
 
-  ## ARIA Labels for WCAG Compliance
+## ARIA Labels for WCAG Compliance
 
 Throughout the project, **ARIA labels** (for example, `aria-label` and `aria-labelledby`) are applied to various components to enhance **accessibility** and help meet **WCAG** standards. These labels assist users who rely on assistive technologies, such as screen readers, by providing clear and descriptive information about interface elements.
 
