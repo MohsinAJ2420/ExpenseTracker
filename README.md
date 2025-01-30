@@ -4,16 +4,14 @@ This project contains both the **frontend (Vite + React)** and the **backend (No
 
 ##  1. Start the Frontend (React)
 1.cd client  
-
 2.npm install  
-
-3npm run dev
+3.npm run dev
 
 ##  2. Start the Backend (Node+Express)
-cd server
-npm install express
-npm init -y
-node server.js
+1.cd server  
+2.npm install express  
+3.npm init -y  
+4.node server.js  
 
 ## Project Components
 This project has several components, each responsible for different parts of the UI and logic:
