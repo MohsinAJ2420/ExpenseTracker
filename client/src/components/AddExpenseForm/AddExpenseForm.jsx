@@ -118,6 +118,14 @@ const AddExpenseForm = ({ onHandleSubmit }) => {
           type="date"
           {...register("date", {
             required: "Date is required.",
+            min: {
+              value: "2020-01-01",
+              message: "Date cannot be before January 1, 2020.",
+            },
+            max: {
+              value: new Date().toISOString().split("T")[0], 
+              message: "Date cannot be in the future.",
+            },
           })}
           className={`form-control ${errors.date ? "is-invalid" : ""}`}
           aria-label="Expense Date"
