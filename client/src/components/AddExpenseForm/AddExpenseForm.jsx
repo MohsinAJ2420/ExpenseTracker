@@ -57,6 +57,7 @@ const AddExpenseForm = ({ onHandleSubmit }) => {
         <input
           id="amount"
           type="number"
+          step="any"
           {...register("amount", {
             required: "Amount is required.",
             min: { value: 0.01, message: "Amount must be greater than 0." },
